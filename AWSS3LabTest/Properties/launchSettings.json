@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "AWSS3LabTest": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AWS_PROFILE": "default",
+        "AWS_REGION": "eu-central-1"
+      }
+    }
+  }
+}
