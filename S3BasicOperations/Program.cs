@@ -8,7 +8,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AWSS3LabTest
+namespace S3BasicOperations
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSS3LabTest", "AWSS3LabTest\AWSS3LabTest.csproj", "{2E1CF185-1F36-4A10-B810-79FD555CE9BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3BasicOperations", "S3BasicOperations\S3BasicOperations.csproj", "{2E1CF185-1F36-4A10-B810-79FD555CE9BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
