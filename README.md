@@ -7,13 +7,18 @@ Staff related to AWS learning
 3. Install .NET 5 SDK - https://dotnet.microsoft.com/download/dotnet/5.0
 
 ###### Setup:
-1. Change const in Program.cs (bucket name rules - https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) 
-Note - upload and download folders should be inside /bin/<BuildConfig>/net5.0/ directory of S3BasicOperation project
-Upload files should be in upload folder
+1. Change const in Program.cs (bucket name rules - https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
+   
+   Note - upload and download folders should be inside /bin/<BuildConfig>/net5.0/ directory of S3BasicOperation project
+   
+   Upload files should be in upload folder
+   
 2. Set AWS_ env parameters inside launchSettings.json
 
 ###### Usage:
 
-`dotnet build --project S3BasicOperations/S3BasicOperations.csproj
-cd S3BasicOperations/bin/Debug/net5.0
-dotnet run S3BasicOperations.dll`
+`dotnet build --project S3BasicOperations/S3BasicOperations.csproj`
+
+`cd S3BasicOperations/bin/Debug/net5.0`
+
+`dotnet run S3BasicOperations.dll`
